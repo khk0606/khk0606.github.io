@@ -90,25 +90,25 @@ def repo(name, label="Code"):
     return f'<link href="https://github.com/khk0606/{name}" color="#174c92"><u>{label}</u></link>'
 
 add("Hyunkyu Kang", name)
-add('<link href="mailto:khk0606@naver.com">khk0606@naver.com</link>'
-    ' | <link href="https://github.com/khk0606">github.com/khk0606</link>'
+add('<link href="mailto:khk0606khk@gmail.com">khk0606@gmail.com</link>'
+    ' | <link href="https://github.com/khk0606">github.com/khk0606</link>'   
     ' | South Korea', contact)
 add('<link href="https://khk0606.github.io">khk0606.github.io</link>', contact)
 
 section("Research Interests")
 add("My research interests lie in human–scene interaction, affordance-aware motion generation, "
-    "and embodied AI. I study how language, spatial relationships, and interaction history "
-    "can guide context-appropriate behavior, with an emphasis on reliable data pipelines "
-    "and reproducible evaluation.")
+    "Robotics, and embodied AI. I study how language, spatial relationships, and interaction "
+    "history can guide context-appropriate behavior, with an emphasis on reliable data "
+    "pipelines and reproducible evaluation.")
 
 section("Education")
-entry("Chung-Ang University", "Undergraduate")
-add("School of Art and Technology", italic)
-add("Additional studies in Data Privacy", italic)
+entry("Chung-Ang University", "March 2021 - February 2027(Expected)")
+add("Bachelor of School of Art and Technology", italic)
+add("Bachelor of Science in Cyber Security (Convergence Major)", italic)
 
 section("Research Experience")
-entry("CREAL Lab, Chung-Ang University", "Jul 2026 – Aug 2026")
-add("AI·SW Convergence Undergraduate Researcher Program | Advisor: Prof. Taeil Jin", italic)
+entry("Chung-Ang University", "Jul 2026 – Current")
+add("Coexistent Reality and Intelligent Agents Lab | Advisor: Prof. Taeil Jin", italic)
 bullets(
     "Worked on language-based 3D scene understanding and purpose- and history-conditioned affordance maps.",
     "Designed a scene-point/body-part representation and implemented motion preprocessing, "
@@ -126,31 +126,22 @@ bullets(
     "Established strict multi-object evaluation gates and documented checkpoint limitations; "
     "end-to-end performance remains under evaluation.",
 )
-figure("affordance-pipeline.png", 510,
+figure("relafford-dual-weight-moe.png", 480,
        "Proposed teacher–student pipeline for purpose- and history-conditioned affordances. "
        "End-to-end performance remains under evaluation.")
 
 story.append(PageBreak())
 section("Research and Projects")
-add("Temporal Diagnostics for Interaction Representations", bold)
-add("Experimental analysis | Human–scene interaction", italic)
+add("Video2Unity: Transformer-Based Motion Refinement", bold)
+add("AI &amp; ML course project, Fall 2025 | " + repo("AI_ML_Video2Unity-Final"), italic)
 bullets(
-    "Analyzed 200 motion sequences and their reversals: max-pooled interaction intensity "
-    "weights (IIW) were identical, while temporal curves had a median mean absolute difference of 0.323.",
-    "Characterized temporal information loss in a proxy IIW representation and compared order "
-    "classifiers; temporal compression did not consistently improve classification.",
-)
-figure("temporal-diagnostics.png", 470,
-       "Static max pooling is reversal-invariant; time-resolved curves retain order-dependent differences.")
-
-story.append(Spacer(1, 7))
-add("YBot-to-HumanML263 Motion Data Pipeline", bold)
-add("Data processing and representation validation", italic)
-bullets(
-    "Built a validated 162-sequence sitting-motion dataset with natural approach trajectories "
-    "and source-disjoint train/validation/test splits of 136 / 13 / 13.",
-    "Verified motion/text/metadata consistency, zero source-split leakage, and a maximum "
-    "reconstructed endpoint error of 2.27 × 10<super>−7</super> m; rejected unrealistic synthetic trajectory warps.",
+    "Developed a video-to-animation pipeline using BlazePose 3D landmarks and a "
+    "TensorFlow/Keras Transformer encoder to refine 33-joint poses from 30-frame sequences.",
+    "Applied root-centered normalization, denoising training, Savitzky-Golay smoothing, "
+    "and floor alignment to address temporal jitter and grounding artifacts.",
+    "Integrated refined motion into a Unity dance performance with motion interpolation, "
+    "scripted camera tracking, and lighting; evaluated motion smoothness and foot-contact "
+    "behavior on a held-out video.",
 )
 
 story.append(Spacer(1, 6))
