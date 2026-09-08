@@ -1,4 +1,6 @@
 .profile-kicker { color: var(--global-text-color-light); font-size: .9em; margin-top: -.65rem; }
+.author__avatar img { width: 175px; height: auto; border-radius: 8px; padding: 0; }
+@media (min-width: 925px) { div.author__avatar { margin-bottom: 1rem; } }
 .profile-links { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; margin: 1.6rem 0; }
 .profile-links a { font-weight: 600; }
 .research-status { font-size: .8em; color: var(--global-text-color-light); margin-top: -.4rem; }
