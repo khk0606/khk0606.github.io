@@ -1,0 +1,135 @@
+# Personal Academic Pages — https://khk0606.github.io
+locale: en-US
+site_theme: default
+title: Hyunkyu Kang
+title_separator: "|"
+name: &name Hyunkyu Kang
+description: &description "Undergraduate at Chung-Ang University studying human-scene interaction, motion generation, and embodied AI."
+url: https://khk0606.github.io
+baseurl: ""
+repository: khk0606/khk0606.github.io
+author:
+  name: Hyunkyu Kang
+  avatar:
+  bio: "Human–scene interaction · Motion generation · Embodied AI"
+  location: South Korea
+  employer: Chung-Ang University
+  email: khk0606@naver.com
+  github: khk0606
+breadcrumbs: false
+words_per_minute: 160
+future: false
+read_more: disabled
+talkmap_link: false
+comments:
+  provider:
+atom_feed:
+  hide: true
+analytics:
+  provider: false
+social:
+  type: Person
+  name: Hyunkyu Kang
+  links:
+    - https://github.com/khk0606
+include:
+  - _pages
+  - files
+exclude:
+  - .github
+  - .bundle
+  - .sass-cache
+  - .asset-cache
+  - .jekyll-assets-cache
+  - _posts
+  - _drafts
+  - .devcontainer
+  - _publications
+  - _talks
+  - _teaching
+  - _portfolio
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
+  - cv
+  - scripts
+  - tmp
+  - local
+  - log
+  - vendor
+  - node_modules
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - AGENTS.md
+  - CONTRIBUTING.md
+  - CONTENT_NOTES.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - Dockerfile
+  - docker-compose.yaml
+  - requirements.txt
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - files/bibtex1.bib
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/publications.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+encoding: utf-8
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+highlighter: rouge
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+collections: {}
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+timezone: Asia/Seoul
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
