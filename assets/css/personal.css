@@ -8,3 +8,42 @@
 .page__content h2 { margin-top: 2rem; }
 .page__content p, .page__content li { line-height: 1.75; }
 @media (min-width: 80em) { .page { padding-right: 3em; } }
+
+/* Separate major sections and keep each project's text and figures together. */
+.page__content .content-panel {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-top: 3px solid var(--global-link-color);
+  border-radius: 8px;
+  background: var(--global-bg-color);
+}
+.page__content .content-panel > h2:first-child {
+  margin-top: 0;
+  padding-bottom: .85rem;
+  margin-bottom: 1.15rem;
+  font-size: 1.35em;
+  line-height: 1.4;
+  scroll-margin-top: 5rem;
+}
+.page__content .content-panel > :last-child { margin-bottom: 0; }
+.project-summary { padding: 1.25rem 0; }
+.project-summary + .project-summary { border-top: 1px solid var(--global-border-color); }
+.page__content .project-summary h3 { margin: 0 0 .65rem; line-height: 1.45; }
+.page__content .project-summary p:last-child { margin-bottom: 0; font-size: .9em; }
+.page__content .content-panel .research-status {
+  display: inline-block;
+  margin: 0 0 1.2rem;
+  padding: .35rem .7rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  font-size: .85em;
+}
+.content-panel .research-figure { padding-top: .5rem; }
+.content-panel .research-figure + .research-figure {
+  border-top: 1px solid var(--global-border-color);
+  padding-top: 1.4rem;
+}
+@media (max-width: 600px) {
+  .page__content .content-panel { padding: 1rem; margin: 1.5rem 0; }
+}

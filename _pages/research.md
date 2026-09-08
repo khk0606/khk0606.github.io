@@ -6,6 +6,8 @@ author_profile: true
 
 I study how scene geometry, language, and interaction history can support human motion generation and embodied behavior. The work below includes ongoing research and implementation projects; it is not a list of peer-reviewed publications.
 
+<section class="content-panel" markdown="1">
+
 ## Affordance-aware motion generation
 {: #affordance-aware-motion-generation }
 
@@ -23,6 +25,10 @@ I am developing a purpose- and history-conditioned affordance pipeline that comb
 </figure>
 
 [Code and experiment documentation](https://github.com/khk0606/ADM-MoE-Teacher)
+
+</section>
+
+<section class="content-panel" markdown="1">
 
 ## Video2Unity: Transformer-based motion refinement
 {: #video2unity }
@@ -56,6 +62,10 @@ The following graphs are cropped from the original report. They illustrate examp
 
 [Code, methods, and reproducibility notes](https://github.com/khk0606/Video2Unity-Transformer-Based-Motion-Refinement)
 
+</section>
+
+<section class="content-panel" markdown="1">
+
 ## Video-to-robot motion transfer
 {: #video-to-robot-motion-transfer }
 
@@ -69,6 +79,10 @@ This project connects reference-video analysis to a structured MotionSpec, gener
 
 [Code](https://github.com/khk0606/Zero-Shot-Video-to-Robot-Motion-Transfer)
 
+</section>
+
+<section class="content-panel" markdown="1">
+
 ## Korean text robustness
 {: #korean-text-robustness }
 
@@ -81,3 +95,5 @@ I evaluated Korean hate-speech classification under text obfuscation using a bal
 - Examined false-negative and false-positive trade-offs across perturbation levels. These results are specific to the evaluated subset and do not imply universal model superiority.
 
 [Code and benchmark results](https://github.com/khk0606/Korean-Hate-Speech-Robustness-under-Text-Obfuscation)
+
+</section>

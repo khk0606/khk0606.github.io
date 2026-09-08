@@ -15,13 +15,21 @@ My recent work brings together 3D scene representations, motion data processing,
 
 <p class="profile-links"><a href="{{ '/research/' | relative_url }}">Research & projects →</a><a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}">Download CV (PDF) ↗</a></p>
 
+<section class="content-panel" markdown="1">
+
 ## Research focus
 
 - **Human–scene interaction:** purpose- and history-conditioned affordance representations.
 - **Motion generation:** scene-conditioned diffusion models, teacher adaptation, and mixture-of-experts routing.
 - **Embodied AI:** connecting visual and language descriptions to motion and robot control.
 
+</section>
+
+<section class="content-panel" markdown="1">
+
 ## Selected work
+
+<article class="project-summary" markdown="1">
 
 ### Affordance-aware human motion generation
 
@@ -29,11 +37,19 @@ Developing a purpose- and history-conditioned affordance pipeline, with teacher 
 
 [Project details]({{ '/research/#affordance-aware-motion-generation' | relative_url }}) · [Code](https://github.com/khk0606/ADM-MoE-Teacher)
 
+</article>
+
+<article class="project-summary" markdown="1">
+
 ### Video2Unity: Transformer-based motion refinement
 
 A course project connecting video-based 3D pose extraction, Transformer refinement, and Unity character animation.
 
 [Project details]({{ '/research/#video2unity' | relative_url }}) · [Code](https://github.com/khk0606/Video2Unity-Transformer-Based-Motion-Refinement)
+
+</article>
+
+<article class="project-summary" markdown="1">
 
 ### From video to robot motion
 
@@ -41,12 +57,24 @@ A simulation prototype that translates reference videos into structured motion s
 
 [Project details]({{ '/research/#video-to-robot-motion-transfer' | relative_url }}) · [Code](https://github.com/khk0606/Zero-Shot-Video-to-Robot-Motion-Transfer)
 
+</article>
+
+<article class="project-summary" markdown="1">
+
 ### Robustness under Korean text obfuscation
 
 Evaluating how character obfuscation changes Korean hate-speech classification, and how normalization and calibration affect error trade-offs.
 
 [Project details]({{ '/research/#korean-text-robustness' | relative_url }}) · [Code](https://github.com/khk0606/Korean-Hate-Speech-Robustness-under-Text-Obfuscation)
 
+</article>
+
+</section>
+
+<section class="content-panel" markdown="1">
+
 ## Contact
 
 For research-related inquiries, please contact [khk0606khk@gmail.com](mailto:khk0606khk@gmail.com).
+
+</section>
