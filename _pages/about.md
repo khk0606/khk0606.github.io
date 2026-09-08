@@ -7,9 +7,9 @@ author_profile: true
 
 <p class="profile-kicker">강현규 · Chung-Ang University</p>
 
-I am an undergraduate in the **School of Art and Technology at Chung-Ang University**, with additional studies in Data Privacy. I participated in the AI·SW Convergence Undergraduate Researcher Program at **CREAL Lab**, advised by **Prof. Taeil Jin**, from July to August 2026.
+I am an undergraduate in the **School of Art and Technology at Chung-Ang University**, pursuing Cyber Security as a convergence major. My undergraduate studies span March 2021 to February 2027 (expected). Since July 2026, I have been conducting undergraduate research at the **Coexistent Reality and Intelligent Agents Lab**, advised by **Prof. Taeil Jin**.
 
-My research interests lie in **human–scene interaction, affordance-aware motion generation, and embodied AI**. I am interested in how language, spatial relationships, and interaction history can help a model decide not only *where* an action is possible, but *how* it should unfold over time.
+My research interests lie in **human–scene interaction, affordance-aware motion generation, robotics, and embodied AI**. I am interested in how language, spatial relationships, and interaction history can help a model decide not only *where* an action is possible, but *how* it should unfold over time.
 
 My recent work brings together 3D scene representations, motion data processing, diffusion models, and careful experimental validation. I also explore video-to-robot motion transfer and the robustness of language models.
 
@@ -29,6 +29,12 @@ Developing a purpose- and history-conditioned affordance pipeline, with teacher 
 
 [Project details]({{ '/research/#affordance-aware-motion-generation' | relative_url }}) · [Code](https://github.com/khk0606/ADM-MoE-Teacher)
 
+### Video2Unity: Transformer-based motion refinement
+
+A course project connecting video-based 3D pose extraction, Transformer refinement, and Unity character animation.
+
+[Project details]({{ '/research/#video2unity' | relative_url }}) · [Code](https://github.com/khk0606/Video2Unity-Transformer-Based-Motion-Refinement)
+
 ### From video to robot motion
 
 A simulation prototype that translates reference videos into structured motion specifications and reward functions for quadruped control.
@@ -43,4 +49,4 @@ Evaluating how character obfuscation changes Korean hate-speech classification, 
 
 ## Contact
 
-For research-related inquiries, please contact [khk0606@naver.com](mailto:khk0606@naver.com).
+For research-related inquiries, please contact [khk0606khk@gmail.com](mailto:khk0606khk@gmail.com).

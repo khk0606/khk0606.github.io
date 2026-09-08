@@ -90,7 +90,7 @@ def repo(name, label="Code"):
     return f'<link href="https://github.com/khk0606/{name}" color="#174c92"><u>{label}</u></link>'
 
 add("Hyunkyu Kang", name)
-add('<link href="mailto:khk0606khk@gmail.com">khk0606@gmail.com</link>'
+add('<link href="mailto:khk0606khk@gmail.com">khk0606khk@gmail.com</link>'
     ' | <link href="https://github.com/khk0606">github.com/khk0606</link>'   
     ' | South Korea', contact)
 add('<link href="https://khk0606.github.io">khk0606.github.io</link>', contact)
@@ -133,7 +133,7 @@ figure("relafford-dual-weight-moe.png", 480,
 story.append(PageBreak())
 section("Research and Projects")
 add("Video2Unity: Transformer-Based Motion Refinement", bold)
-add("AI &amp; ML course project, Fall 2025 | " + repo("AI_ML_Video2Unity-Final"), italic)
+add("AI &amp; ML course project, Fall 2025 | " + repo("Video2Unity-Transformer-Based-Motion-Refinement"), italic)
 bullets(
     "Developed a video-to-animation pipeline using BlazePose 3D landmarks and a "
     "TensorFlow/Keras Transformer encoder to refine 33-joint poses from 30-frame sequences.",
@@ -168,6 +168,26 @@ section("Technical Experience")
 add("<b>Programming and ML:</b> Python, PyTorch, NumPy, scikit-learn, Hugging Face Transformers")
 add("<b>Motion and simulation:</b> HumanML263, Unity/YBot motion processing, MuJoCo/MJX, JAX")
 add("<b>Research workflows:</b> Git, Linux, LoRA adaptation, experiment auditing, visualization")
+
+section("Language Proficiency")
+language_rows = [
+    [p("Language", bold), p("Test", bold), p("Score / Level", bold),
+     p("Test Date ~ Expiration Date", bold)],
+    [p("English"), p("TOEIC"), p("930"), p("2025.07.13 ~ 2027.07.13")],
+    [p("English"), p("OPIc"), p("Intermediate High (IH)"),
+     p("2026.08.30 ~ 2028.08.30")],
+]
+language_table = Table(language_rows, colWidths=[65, 60, 150, WIDTH - 275],
+                       hAlign="LEFT", repeatRows=1)
+language_table.setStyle(TableStyle([
+    ("VALIGN", (0, 0), (-1, -1), "TOP"),
+    ("LEFTPADDING", (0, 0), (-1, -1), 0),
+    ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+    ("TOPPADDING", (0, 0), (-1, -1), 4),
+    ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
+    ("LINEBELOW", (0, 0), (-1, 0), 0.4, colors.HexColor("#777777")),
+]))
+story.append(KeepTogether([language_table]))
 
 def footer(canvas, doc):
     canvas.saveState()
