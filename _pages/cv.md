@@ -1,47 +1,19 @@
 ---
-title: "Curriculum Vitae"
+title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 ---
 
-<p class="profile-links"><a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}">Download CV (PDF) ↗</a></p>
+<style>
+  #main { max-width: 1100px; }
+  #main > .page { float: none; width: 100%; padding: 0; margin: 0; }
+  .cv-document { display: block; width: 100%; height: 1250px; height: max(85vh, 900px); border: 1px solid var(--global-border-color); background: #f5f5f5; }
+  .cv-download { margin-top: 1rem !important; font-size: 0.85em; }
+  @media (max-width: 600px) { .cv-document { height: 80vh; min-height: 550px; } }
+</style>
 
-## Education
+<object class="cv-document" data="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}#view=FitH&toolbar=0&navpanes=0" type="application/pdf" aria-label="Hyunkyu Kang — Curriculum Vitae">
+  <p>Your browser cannot display this PDF inline. <a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}">Open CV (PDF)</a>.</p>
+</object>
 
-**Chung-Ang University** · March 2021 – February 2027 (expected)<br>
-Undergraduate studies in Art and Technology<br>
-Bachelor of Science in Cyber Security (Convergence Major, in progress)
-
-## Research experience
-
-**Coexistent Reality and Intelligent Agents Lab, Chung-Ang University**<br>
-Undergraduate research · July 2026 – Present<br>
-Advisor: Prof. Taeil Jin
-
-Research on language-based 3D scene understanding and purpose- and history-conditioned affordance maps. Work includes motion preprocessing, coordinate validation, contact supervision, and training and evaluation components.
-
-## Selected research and projects
-
-- [Purpose- and history-conditioned affordance-aware motion generation]({{ '/research/#affordance-aware-motion-generation' | relative_url }})
-- [Video2Unity: Transformer-based motion refinement]({{ '/research/#video2unity' | relative_url }})
-- [Video-to-robot motion transfer in simulation]({{ '/research/#video-to-robot-motion-transfer' | relative_url }})
-- [Korean hate-speech robustness under text obfuscation]({{ '/research/#korean-text-robustness' | relative_url }})
-
-## Technical experience
-
-**Programming and ML:** Python, PyTorch, NumPy, scikit-learn, Hugging Face Transformers
-
-**Motion and simulation:** HumanML263, Unity/YBot motion processing, MuJoCo/MJX, JAX
-
-**Research workflows:** Git, Linux, LoRA adaptation, experiment auditing, visualization
-
-## Language proficiency
-
-| Language | Test | Score / Level | Test date | Expiration date |
-| --- | --- | --- | --- | --- |
-| English | TOEIC | 930 | 2025.07.13 | 2027.07.13 |
-| English | OPIc | Intermediate High (IH) | 2026.08.30 | 2028.08.30 |
-
-## Contact
-
-[khk0606khk@gmail.com](mailto:khk0606khk@gmail.com)
+<p class="cv-download"><a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}" target="_blank" rel="noopener">Open PDF ↗</a> · <a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}" download>Download PDF</a></p>
