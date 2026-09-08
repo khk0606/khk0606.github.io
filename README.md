@@ -18,6 +18,7 @@ Personal academic website based on [Academic Pages](https://github.com/academicp
 
 `main` 브랜치에 push하면 GitHub Actions가 Jekyll 사이트를 빌드하고 GitHub Pages에 배포합니다.
 GitHub Settings → Pages → Source는 **GitHub Actions**를 사용합니다.
+배포 전에 내부 링크, CV·이미지 파일, 템플릿 예시 문구 잔존 여부를 자동 검사합니다.
 
 ## 로컬 실행
 
