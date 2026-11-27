@@ -4,16 +4,16 @@ site_theme: default
 title: Hyunkyu Kang
 title_separator: "|"
 name: &name Hyunkyu Kang
-description: &description "Undergraduate at Chung-Ang University and incoming M.S. student at GILab, Korea University, studying human-scene interaction, motion generation, and embodied AI."
+description: &description "Incoming M.S. student at GILab, Korea University, interested in generative models for human-scene interaction."
 url: https://khk0606.github.io
 baseurl: ""
 repository: khk0606/khk0606.github.io
 author:
   name: Hyunkyu Kang
   avatar: hyunkyu-kang.jpg
-  bio: "Human–scene interaction · Motion generation · Embodied AI"
+  bio: "Generative modeling · Human–scene interaction"
   location: South Korea
-  employer: Chung-Ang University
+  employer: GILab, Korea University
   email: khk0606khk@gmail.com
   github: khk0606
 breadcrumbs: false

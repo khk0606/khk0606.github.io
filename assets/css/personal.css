@@ -57,3 +57,19 @@ body { margin-bottom: 0 !important; }
 @media (max-width: 600px) {
   .page__content .content-panel { padding: 1rem; margin: 1.5rem 0; }
 }
+
+/* Home header: role lines, one-sentence lead, topic tags */
+.profile-role { margin: -.4rem 0 1.2rem; color: var(--global-text-color-light); }
+.profile-role p { margin: 0 0 .15rem; line-height: 1.6; }
+.profile-role a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--global-border-color); }
+.page__content p.profile-lead { font-size: 1.1em; line-height: 1.7; margin-bottom: 0; }
+.topic-tags { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; margin: 1.2rem 0 0; padding: 0; }
+.page__content .topic-tags li {
+  margin: 0;
+  padding: .3rem .8rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-size: .82em;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}

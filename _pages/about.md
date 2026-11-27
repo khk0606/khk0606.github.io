@@ -1,29 +1,34 @@
 ---
 permalink: /
 title: "Hyunkyu Kang"
-excerpt: "Human–scene interaction, motion generation, and embodied AI."
+excerpt: "Incoming M.S. student at GILab, Korea University. Generative models for human–scene interaction."
 author_profile: true
 ---
 
-<p class="profile-kicker">강현규 · Chung-Ang University · Incoming M.S. student, GILab, Korea University (Mar 2027)</p>
+<div class="profile-role" markdown="0">
+  <p>Incoming M.S. Student, <a href="https://www.gi.korea.ac.kr/">Generative Intelligence Lab (GILab)</a>, Korea University</p>
+  <p>B.S., Chung-Ang University</p>
+</div>
 
-I am an undergraduate in the **School of Art and Technology at Chung-Ang University**, pursuing Cyber Security as a convergence major. My undergraduate studies span March 2021 to February 2027 (expected). In March 2027, I will begin my M.S. studies at the **Generative Intelligence Lab (GILab), Korea University**.
+<p class="profile-lead">I am interested in generative models for human–scene interaction, with a focus on how purpose and context determine where people interact in 3D scenes.</p>
 
-Since November 2026, I have been an undergraduate research intern at GILab, advised by **Prof. Sungwoo Park**. From September 2025 to November 2026, I conducted undergraduate research at the **Coexistent Reality and Intelligent Agents Lab (CReAL), Chung-Ang University**, advised by **Prof. Taeil Jin**.
-
-My research interests lie in **human–scene interaction, affordance-aware motion generation, robotics, and embodied AI**. I am interested in how language, spatial relationships, and interaction history can help a model decide not only *where* an action is possible, but *how* it should unfold over time.
-
-My recent work brings together 3D scene representations, motion data processing, diffusion models, and careful experimental validation. I also explore video-to-robot motion transfer and the robustness of language models.
-
-<p class="profile-links"><a href="{{ '/research/' | relative_url }}">Research & projects →</a><a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}">Download CV (PDF) ↗</a></p>
+<p class="profile-links"><a href="mailto:khk0606khk@gmail.com">Email</a><a href="https://github.com/khk0606">GitHub</a><a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}">CV</a></p>
 
 <section class="content-panel" markdown="1">
 
-## Research focus
+## About
 
-- **Human–scene interaction:** purpose- and history-conditioned affordance representations.
-- **Motion generation:** scene-conditioned diffusion models, teacher adaptation, and mixture-of-experts routing.
-- **Embodied AI:** connecting visual and language descriptions to motion and robot control.
+My research interests lie at the intersection of generative modeling, 3D scene understanding, and human motion. I am particularly interested in how language, spatial relationships, and interaction history can guide where an interaction should take place in a scene.
+
+I am also interested in building geometric and physical structure, such as orientation and contact, into generative models so that generated interactions remain plausible.
+
+<ul class="topic-tags">
+  <li>Generative Modeling</li>
+  <li>Human–Scene Interaction</li>
+  <li>Affordance</li>
+  <li>3D Scene Understanding</li>
+  <li>Motion Generation</li>
+</ul>
 
 </section>
 
@@ -33,50 +38,14 @@ My recent work brings together 3D scene representations, motion data processing,
 
 <article class="project-summary" markdown="1">
 
-### Affordance-aware human motion generation
+### Purpose- and History-Conditioned Reweighting of Affordance Maps
 
-Developing a purpose- and history-conditioned affordance pipeline, with teacher adaptation and MoE routing. Current work focuses on reproducible training, contact supervision, and failure analysis.
+<p class="research-status">Ongoing research · In preparation for submission</p>
 
-[Project details]({{ '/research/#affordance-aware-motion-generation' | relative_url }}) · [Code](https://github.com/khk0606/ADM-MoE-Teacher)
+Selects interaction regions for instructions that do not name the target furniture (e.g., "Sit on something to watch TV") by reweighting a LoRA-adapted affordance diffusion model with purpose- and history-conditioned mixture-of-experts weights.
 
-</article>
-
-<article class="project-summary" markdown="1">
-
-### Video2Unity: Transformer-based motion refinement
-
-A course project connecting video-based 3D pose extraction, Transformer refinement, and Unity character animation.
-
-[Project details]({{ '/research/#video2unity' | relative_url }}) · [Code](https://github.com/khk0606/Video2Unity-Transformer-Based-Motion-Refinement)
+[Details]({{ '/research/#affordance-reweighting' | relative_url }}) · [Code](https://github.com/khk0606/ADM-MoE-Teacher)
 
 </article>
-
-<article class="project-summary" markdown="1">
-
-### From video to robot motion
-
-A simulation prototype that translates reference videos into structured motion specifications and reward functions for quadruped control.
-
-[Project details]({{ '/research/#video-to-robot-motion-transfer' | relative_url }}) · [Code](https://github.com/khk0606/Zero-Shot-Video-to-Robot-Motion-Transfer)
-
-</article>
-
-<article class="project-summary" markdown="1">
-
-### Robustness under Korean text obfuscation
-
-Evaluating how character obfuscation changes Korean hate-speech classification, and how normalization and calibration affect error trade-offs.
-
-[Project details]({{ '/research/#korean-text-robustness' | relative_url }}) · [Code](https://github.com/khk0606/Korean-Hate-Speech-Robustness-under-Text-Obfuscation)
-
-</article>
-
-</section>
-
-<section class="content-panel" markdown="1">
-
-## Contact
-
-For research-related inquiries, please contact [khk0606khk@gmail.com](mailto:khk0606khk@gmail.com).
 
 </section>
