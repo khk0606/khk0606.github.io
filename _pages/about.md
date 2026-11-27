@@ -38,13 +38,14 @@ I am also interested in building geometric and physical structure, such as orien
 
 <article class="project-summary" markdown="1">
 
-### Purpose- and History-Conditioned Reweighting of Affordance Maps
+### Intended-Seat Affordance Maps by Adapting a Pretrained Affordance Diffusion Model
 
-<p class="research-status">Ongoing research · In preparation for submission</p>
+<p class="research-authors"><strong>Hyunkyu Kang</strong>, Taeil Jin</p>
+<p class="research-status">Journal manuscript in preparation</p>
 
-Selects interaction regions for instructions that do not name the target furniture (e.g., "Sit on something to watch TV") by reweighting a LoRA-adapted affordance diffusion model with purpose- and history-conditioned mixture-of-experts weights.
+Predicts where a user will sit from an instruction that does not name the seat (e.g., "Sit on something to watch TV") and the user's recent movement, by weighting the map of a LoRA-adapted affordance diffusion model with an intent adapter.
 
-[Details]({{ '/research/#affordance-reweighting' | relative_url }}) · [Code](https://github.com/khk0606/ADM-MoE-Teacher)
+[Details]({{ '/research/#intended-seat-affordance' | relative_url }})
 
 </article>
 

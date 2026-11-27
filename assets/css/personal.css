@@ -73,3 +73,13 @@ body { margin-bottom: 0 !important; }
   line-height: 1.5;
   color: var(--global-text-color-light);
 }
+.page__content p.research-authors { margin: -.2rem 0 .6rem; font-size: .95em; }
+
+/* Site title on the left, menu links on the right (tablet and wider).
+   Padding keeps the measured width of the link list honest for the greedy-nav script. */
+@media (min-width: 768px) {
+  .greedy-nav .visible-links { margin-left: auto; padding-left: 10rem; }
+  .greedy-nav .visible-links > li.masthead__menu-item--lg {
+    position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+  }
+}
