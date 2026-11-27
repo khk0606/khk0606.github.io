@@ -12,7 +12,7 @@ author_profile: true
 
 <p class="profile-lead">I am interested in generative models for human–scene interaction, with a focus on how purpose and context determine where people interact in 3D scenes.</p>
 
-<p class="profile-links"><a href="mailto:khk0606khk@gmail.com">Email</a><a href="https://github.com/khk0606">GitHub</a><a href="{{ '/files/CV_HyunkyuKang.pdf' | relative_url }}">CV</a></p>
+<p class="profile-links"><a href="mailto:khk0606khk@gmail.com">Email</a><a href="https://github.com/khk0606">GitHub</a><a href="#" onclick="return false;">CV</a></p>
 
 <section class="content-panel" markdown="1">
 
