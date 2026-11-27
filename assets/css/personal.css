@@ -1,6 +1,14 @@
 .profile-kicker { color: var(--global-text-color-light); font-size: .9em; margin-top: -.65rem; }
-.author__avatar img { width: 175px; height: auto; border-radius: 8px; padding: 0; }
-@media (min-width: 925px) { div.author__avatar { margin-bottom: 1rem; } }
+.author__avatar img { width: 72px; height: auto; border-radius: 8px; padding: 0; }
+@media (min-width: 925px) {
+  .author__avatar img { width: 175px; }
+  div.author__avatar { margin-bottom: 1rem; }
+}
+
+/* Keep the footer in normal flow instead of pinning it over the content.
+   The theme JS also sets an inline body margin equal to the footer height; cancel it. */
+.page__footer { position: relative; bottom: auto; }
+body { margin-bottom: 0 !important; }
 .profile-links { display: flex; flex-wrap: wrap; gap: .7rem 1.5rem; margin: 1.6rem 0; }
 .profile-links a { font-weight: 600; }
 .research-status { font-size: .8em; color: var(--global-text-color-light); margin-top: -.4rem; }

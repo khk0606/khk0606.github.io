@@ -6,12 +6,18 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
+{% comment %}
+  Render the page title on its own: running markdownify over "Page | Site"
+  makes kramdown parse the "|" as a table row and drop the separator.
+  The home page title equals the site title, so do not repeat it.
+{% endcomment %}
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
-{% endif %}
-
-{% if seo_title %}
-  {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
+  {% assign page_title_plain = page.title | markdownify | strip_html | strip_newlines | strip %}
+  {% if page_title_plain == site.title %}
+    {% assign seo_title = site.title | escape_once %}
+  {% else %}
+    {% assign seo_title = page_title_plain | append: " " | append: site.title_separator | append: " " | append: site.title | escape_once %}
+  {% endif %}
 {% endif %}
 
 {% if site.url %}

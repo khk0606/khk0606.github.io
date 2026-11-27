@@ -4,7 +4,7 @@ site_theme: default
 title: Hyunkyu Kang
 title_separator: "|"
 name: &name Hyunkyu Kang
-description: &description "Undergraduate at Chung-Ang University studying human-scene interaction, motion generation, and embodied AI."
+description: &description "Undergraduate at Chung-Ang University and incoming M.S. student at GILab, Korea University, studying human-scene interaction, motion generation, and embodied AI."
 url: https://khk0606.github.io
 baseurl: ""
 repository: khk0606/khk0606.github.io
@@ -97,6 +97,7 @@ exclude:
   - _pages/teaching.html
   - _pages/terms.md
   - _pages/year-archive.html
+  - _pages/sitemap.md
 encoding: utf-8
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown

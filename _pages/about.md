@@ -5,9 +5,11 @@ excerpt: "Human–scene interaction, motion generation, and embodied AI."
 author_profile: true
 ---
 
-<p class="profile-kicker">강현규 · Chung-Ang University</p>
+<p class="profile-kicker">강현규 · Chung-Ang University · Incoming M.S. student, GILab, Korea University (Mar 2027)</p>
 
-I am an undergraduate in the **School of Art and Technology at Chung-Ang University**, pursuing Cyber Security as a convergence major. My undergraduate studies span March 2021 to February 2027 (expected). Since July 2026, I have been conducting undergraduate research at the **Coexistent Reality and Intelligent Agents Lab**, advised by **Prof. Taeil Jin**.
+I am an undergraduate in the **School of Art and Technology at Chung-Ang University**, pursuing Cyber Security as a convergence major. My undergraduate studies span March 2021 to February 2027 (expected). In March 2027, I will begin my M.S. studies at the **Generative Intelligence Lab (GILab), Korea University**.
+
+Since November 2026, I have been an undergraduate research intern at GILab, advised by **Prof. Sungwoo Park**. From September 2025 to November 2026, I conducted undergraduate research at the **Coexistent Reality and Intelligent Agents Lab (CReAL), Chung-Ang University**, advised by **Prof. Taeil Jin**.
 
 My research interests lie in **human–scene interaction, affordance-aware motion generation, robotics, and embodied AI**. I am interested in how language, spatial relationships, and interaction history can help a model decide not only *where* an action is possible, but *how* it should unfold over time.
 
